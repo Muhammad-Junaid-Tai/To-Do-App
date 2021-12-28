@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tai's To Do Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+</head>
+<body>
+    
+<section class="toDoBodySection">
+    <div class="toDodiv">
+        <div><input placeholder="Enter what to do" type="text" id="todo-item"></div>
+        <div class="BtnDiv">
+        <button onclick="addTodo()" class="btn">Add an item</button>
+        <button onclick="deleteAll()" class="btn">Delete All Items</button>
+    </div>
+    <p>NEW TASKS</p>
+    <div class="listDiv">
+        <ul id="list">
+            
+        </ul>
+    </div>
+        
+
+
+    </div>
+</section>
+<script src="app.js"></script>
+<!-- <script src="script.js"></script> -->
+</body>
+</html>

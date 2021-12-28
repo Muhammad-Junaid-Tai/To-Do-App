@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Kaushan Script', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.toDoBodySection {
+    background-color: #97B4FF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toDodiv {
+    width: 20vw;
+    background-color: #3450A1;
+    min-height: 90vh;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+#todo-item {
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 30px 0px 10px 0px;    
+    background-color: #041955;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#todo-item:focus {
+    background-color: white;
+    outline: none;
+    border: none;
+    color: black;
+}
+.BtnDiv{
+    display: flex;
+    flex-basis: 45%;
+    justify-content: space-between;
+}
+.btn {
+    color: white;
+    width: 110px;
+    height: 40px;
+    background-color: #041955;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    padding: 5px;
+}
+.btn:active {
+    box-shadow: inset 0 0 10px rgb(30, 41, 139);
+}
+p {
+    margin: 40px 5px 15px 5px;
+    color: #97B4FF;
+    font-size: 16px;
+
+}
+ul#list{
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    width: 60%;
+    height: 40px;
+    margin: 5px 0px;    
+    background-color: #041955;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.btn1 {
+    color: white;
+    width: 50px;
+    height: 40px;
+    background-color: #041955;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    padding: 5px;
+    margin: 5px 2px;
+}
+.listDiv > ul > button:active {
+    box-shadow: inset 0 0 10px rgb(30, 41, 139);
+}
